@@ -1,0 +1,47 @@
+name: Bug report
+description: Something in an SDK or the API does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never paste API keys, session audio, transcripts or personal data here.** This issue is public. Replace them with placeholders such as `go3_...`.
+        Security problems go to SECURITY.md, not to an issue.
+  - type: input
+    id: version
+    attributes:
+      label: SDK version
+      description: For example 0.1.0. Write "API only" if you call the API directly.
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime and OS
+      description: For example Python 3.12 on Ubuntu 24.04, Node 22, Java 17, Go 1.23.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Smallest code that shows it
+      description: Remove keys and real session data first.
+      render: text
+  - type: input
+    id: request-id
+    attributes:
+      label: X-Request-Id
+      description: From the failing response, or from the error message the SDK raised.
+  - type: checkboxes
+    id: no-secrets
+    attributes:
+      label: Before you submit
+      options:
+        - label: I removed API keys, session audio, transcripts and personal data from this issue.
+          required: true

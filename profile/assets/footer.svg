@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Observe, Orient, Override" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+<title>Observe, Orient, Override</title>
+  <defs><linearGradient id="fw" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#1e88e5"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d97a"/>
+  </linearGradient></defs>
+  <path d="M0 70 C 200 30, 400 110, 600 70 S 1000 30, 1200 70 V170 H0Z" fill="url(#fw)" opacity=".18">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="
+      M0 70 C 200 30, 400 110, 600 70 S 1000 30, 1200 70 V170 H0Z;
+      M0 80 C 200 110, 400 40, 600 80 S 1000 110, 1200 60 V170 H0Z;
+      M0 70 C 200 30, 400 110, 600 70 S 1000 30, 1200 70 V170 H0Z"/></path>
+  <path d="M0 95 C 250 60, 450 130, 700 95 S 1050 60, 1200 95 V170 H0Z" fill="url(#fw)" opacity=".28"/>
+  <path d="M0 120 C 300 95, 500 150, 800 120 S 1100 100, 1200 118 V170 H0Z" fill="#0b1e33"/>
+  <text x="600" y="152" text-anchor="middle" fill="#f3f7fb" font-size="15" font-weight="700" letter-spacing="5">OBSERVE · ORIENT · OVERRIDE</text>
+</svg>

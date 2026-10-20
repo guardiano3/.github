@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/guardiano3/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, never in a public issue.
+  - name: Account, API key or billing help
+    url: mailto:support@guardiano3.com
+    about: For anything about your own account, email support.

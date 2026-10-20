@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an improvement to an SDK or the API.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never paste API keys, session audio, transcripts or personal data here.** This issue is public.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The problem you want solved, before any particular solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help?
+  - type: checkboxes
+    id: no-secrets
+    attributes:
+      label: Before you submit
+      options:
+        - label: I removed API keys, session audio, transcripts and personal data from this issue.
+          required: true
